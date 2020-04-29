@@ -1,9 +1,10 @@
 import React from "react";
+import "../styles/calculator.css";
 
 class Calculator extends React.Component {
   render() {
     return (
-      <div>
+      <div id="calculator">
         <h3>Calculator</h3>
       </div>
     );
