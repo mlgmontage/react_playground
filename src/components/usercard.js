@@ -28,6 +28,16 @@ class Usercard extends React.Component {
       <div>
         <h3>Usercard</h3>
         <button>Fetch data</button>
+        {!this.state.data ? (
+          <h4>loading...</h4>
+        ) : (
+          <div>
+            <img src={this.state.data.avatar_url}></img>
+            <ul>
+              <li>{this.state.data.login}</li>
+            </ul>
+          </div>
+        )}
       </div>
     );
   }
