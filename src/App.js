@@ -5,7 +5,7 @@ import Calculator from "./components/Calculator";
 function App() {
   return (
     <div className="App">
-      <Message msg="this is message" />
+      <Message msg="Calculator app" />
       <Calculator />
     </div>
   );
