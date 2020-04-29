@@ -34,6 +34,7 @@ class Usercard extends React.Component {
           <div>
             <img src={this.state.data.avatar_url}></img>
             <ul>
+              <li>{this.state.data.name}</li>
               <li>{this.state.data.login}</li>
             </ul>
           </div>
